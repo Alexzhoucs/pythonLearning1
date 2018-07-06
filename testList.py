@@ -15,5 +15,11 @@ print("\nCHANGE\n")
 List0.reverse()
 
 size = len(List)
-for i in range(0,size,1):
-    print(i,List[i])
+for i in range(0, size, 1):
+    print(i,"\t", List[i])
+
+print("\nchange\n")
+List1.reverse()
+size = len(List)
+for i in range(0, size, 1):
+    print(i, "\t", List[i])
